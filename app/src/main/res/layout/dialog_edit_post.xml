@@ -1,0 +1,58 @@
+<LinearLayout
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Edit"
+        android:textColor="@color/colorBlue"
+        android:textSize="28sp"
+        android:layout_marginStart="20dp">
+    </TextView>
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:id="@+id/edt_edit_post_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:lines="3"
+        android:ellipsize="end"
+        android:background="@drawable/background_edit_content"
+        android:layout_gravity="center_vertical"
+        android:paddingStart="5dp"
+        android:layout_margin="10dp"
+        android:hint="@string/WhatIsGoingOn">
+    </EditText>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_dialog_edit_post_save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Edit"
+            android:background="@drawable/background_button_one"
+            android:textColor="@color/colorWhite"
+            android:layout_weight="1"
+            android:layout_margin="10dp">
+        </Button>
+        <Button
+            android:id="@+id/btn_dialog_edit_post_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Cancel"
+            android:background="@drawable/background_button_two"
+            android:textColor="@color/colorWhite"
+            android:layout_weight="1"
+            android:layout_margin="10dp">
+        </Button>
+
+    </LinearLayout>
+
+</LinearLayout>

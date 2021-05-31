@@ -1,0 +1,22 @@
+<RelativeLayout
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="8dp">
+
+    <TextView
+        android:layout_alignParentEnd="true"
+        android:id="@+id/tv_item_my_message_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:maxWidth="200dp"
+        android:padding="12dp"
+        android:background="@drawable/background_my_message"
+        android:textColor="@color/colorBlack"
+        android:text="@string/Developed_By"
+        android:minHeight="35dp"
+        android:textSize="14sp">
+    </TextView>
+
+</RelativeLayout>

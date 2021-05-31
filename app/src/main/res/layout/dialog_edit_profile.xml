@@ -1,0 +1,110 @@
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/EditProfile"
+        android:textSize="30sp"
+        android:textColor="@color/colorBlack"
+        android:layout_gravity="center"
+        android:textStyle="bold">
+    </TextView>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Name"
+        android:textColorHint="@color/colorBlack">
+
+        <EditText
+            android:id="@+id/edt_dialog_full_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </EditText>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Address"
+        android:textColorHint="@color/colorBlack">
+
+        <EditText
+            android:id="@+id/edt_dialog_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </EditText>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Birthday"
+        android:textColorHint="@color/colorBlack">
+
+        <EditText
+            android:id="@+id/edt_dialog_birthday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </EditText>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Phone_Number"
+        android:textColorHint="@color/colorBlack">
+
+        <EditText
+            android:id="@+id/edt_dialog_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number">
+
+        </EditText>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp">
+        <Button
+            android:id="@+id/btn_dialog_save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Edit"
+            android:background="@drawable/background_button_one"
+            android:textColor="@color/colorWhite"
+            android:layout_weight="1"
+            android:layout_margin="10dp">
+        </Button>
+        <Button
+            android:id="@+id/btn_dialog_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Cancel"
+            android:background="@drawable/background_button_two"
+            android:textColor="@color/colorWhite"
+            android:layout_weight="1"
+            android:layout_margin="10dp">
+        </Button>
+    </LinearLayout>
+</LinearLayout>

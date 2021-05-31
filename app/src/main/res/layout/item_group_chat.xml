@@ -1,0 +1,84 @@
+<RelativeLayout
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View
+        android:id="@+id/v_grey_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorGray200">
+    </View>
+
+    <ViewFlipper
+        android:id="@+id/vf_item_group_chat_avatar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imv_item_group_chat_avatar"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_margin="8dp"
+            android:src="@drawable/ic_profile">
+
+        </de.hdodenhof.circleimageview.CircleImageView>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imv_item_group_chat_avatar_1"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_margin="8dp"
+                android:src="@drawable/ic_profile"
+                app:civ_border_width="2dp"
+                app:civ_border_color="@color/colorWhite">
+
+            </de.hdodenhof.circleimageview.CircleImageView>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imv_Item_group_chat_avatar_2"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:src="@drawable/ic_profile"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                app:civ_border_width="2dp"
+                app:civ_border_color="@color/colorWhite">
+
+            </de.hdodenhof.circleimageview.CircleImageView>
+        </RelativeLayout>
+    </ViewFlipper>
+
+    <TextView
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/tv_item_group_chat_name"
+        android:layout_below="@id/v_grey_line"
+        android:layout_toEndOf="@id/vf_item_group_chat_avatar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:text="@string/Username"
+        android:textColor="@color/colorBlack"
+        android:textSize="18sp">
+
+    </TextView>
+    <TextView
+        android:id="@+id/tv_last_message"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/tv_item_group_chat_name"
+        android:layout_toEndOf="@id/vf_item_group_chat_avatar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:text="@string/Comment"
+        android:textColor="@color/colorGray800"
+        android:textSize="18sp">
+
+    </TextView>
+</RelativeLayout>

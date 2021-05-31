@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">DemoMXH</string>
+
+    <string name="Welcome">Welcome,</string>
+    <string name="Log_In">Log in!</string>
+    <string name="Username">Username</string>
+    <string name="Password">Password</string>
+    <string name="Register_here">Register here</string>
+    <string name="Developed_By">Developed by Tuan Tran</string>
+
+    <string name="Register">Register</string>
+    <string name="Email">Email</string>
+    <string name="Phone_Number">Phone Number</string>
+    <string name="Name">Full Name</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="Menu">Menu</string>
+    <string name="Logout">Log out</string>
+    <string name="FriendsList">Your friends list</string>
+    <string name="GoToProfileActivity">Go to your profile</string>
+    <string name="NewFeeds">New Feeds</string>
+    <string name="Like">Like</string>
+    <string name="Comment">Comment</string>
+    <string name="NoData">No data</string>
+    <string name="No_Network_connection">No Network Connection</string>
+
+    <string name="Post">Post</string>
+    <string name="CommentHere">What are you thinking?</string>
+
+    <string name="Location">Location</string>
+    <string name="Birthday">Birthday</string>
+    <string name="EditProfile">Edit your profile</string>
+    <string name="Address">Address</string>
+    <string name="Cancel">Cancel</string>
+    <string name="Edit">Edit</string>
+    <string name="Chat">Chat</string>
+    <string name="Delete">Delete</string>
+
+    <string name="WhatIsGoingOn">What is going on?</string>
+    <string name="Back">Back</string>
+    <string name="Click_On_mic">Click on mic</string>
+    <string name="Send">Send</string>
+    <string name="create_new_groups">Create New Groups</string>
+    <string name="click_on_item_will_show_this">Click On Item Will Show This</string>
+    <string name="demo_user">Ngô Giang Nam</string>
+</resources>
